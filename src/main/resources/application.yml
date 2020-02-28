@@ -1,0 +1,7 @@
+server:
+  port: 8008
+logging:
+  level:
+    root: info
+  pattern:
+    console: "%date{yyyyMMdd-HH:mm:ss}[%thread]%-5level[%logger{40}-%line] %msg %n"
